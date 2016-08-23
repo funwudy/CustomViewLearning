@@ -1,6 +1,9 @@
-package com.example.fun.customviewlearning;
+package com.example.fun.customviewlearning.activity;
 
+import android.app.Activity;
 import android.os.Bundle;
+
+import com.example.fun.customviewlearning.R;
 
 public class MainActivity extends Activity {
 
@@ -10,3 +13,4 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 }
+
