@@ -14,13 +14,16 @@
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="Hello World!" />
 
     <com.example.fun.customviewlearning.widget.RainbowProgressBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view"
+        android:background="#e2c07c"
         app:bar_width="80dp"
         app:bar_height="10dp"
         app:bar_interval="20dp"/>
+
 </RelativeLayout>
